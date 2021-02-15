@@ -17,7 +17,7 @@ phases:
       - rm -rf /tmp/*
   build:
     commands:
-      #- git submodule update --init --recursive --depth 1
+      - git submodule update --init --recursive --depth 1
       - rm -rf public
       - hugo
       - aws s3 sync public/ s3://hugo-sang-docsy1/ --region us-east-2 --delete
