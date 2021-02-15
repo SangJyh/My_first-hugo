@@ -1,4 +1,5 @@
-baseURL = "http://hugo-sang-docsy1.s3-website.us-east-2.amazonaws.com/"
+baseURL = "http://hugo-sang-docsy1.s3-website.us-east-2.amazonaws.com/" #              #
+title = "docs hugo"
 
 enableRobotsTXT = true
 
