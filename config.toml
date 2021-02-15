@@ -1,4 +1,4 @@
-baseURL = "http://SangJyh.github.io"
+baseURL = "http://hugo-sang-docsy1.s3-website.us-east-2.amazonaws.com/"#http://SangJyh.github.io"
 title = "docs hugo"
 
 enableRobotsTXT = true
@@ -6,10 +6,10 @@ enableRobotsTXT = true
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
 
-#[[deployment.targets]]
+[[deployment.targets]]
 
-#name = "awsbucket"
-#URL = "s3://hugo-sang-docsy1/?region=us-east-2"
+name = "awsbucket"
+URL = "s3://hugo-sang-docsy1/?region=us-east-2"
 
 
 # Will give values to .Lastmod etc.
