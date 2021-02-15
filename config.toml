@@ -1,14 +1,14 @@
 baseURL = "http://hugo-sang-docsy1.s3-website.us-east-2.amazonaws.com/" #"http://18.222.251.194:8080/"  # 
-title = "docs hugo"
+title = "hugo"
 
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
 
-[[deployment.targets]]
-name = "awsbucket"
-URL = "s3://hugo-sang-docsy1/?region=us-east-2"
+#[[deployment.targets]]
+#name = "awsbucket"
+#URL = "s3://hugo-sang-docsy1/?region=us-east-2"
 
 
 # Will give values to .Lastmod etc.
