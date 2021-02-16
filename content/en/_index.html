@@ -4,7 +4,10 @@ linkTitle = "docs hugo"
 
 +++
 
-{{% blocks/cover title="Welcome to Sang-Jyh's Website! <b><br></b> I have some ideas to share with you!" image_anchor="top" height="full" color="orange" %}}
+{{% blocks/cover title="Welcome to Sang-Jyh's Website!" image_anchor="top" height="full" color="orange" %}}
+<header class="page-header">
+    <h3>I have some ideas to share with you!</h3>
+</header>
 <div class="mx-auto">
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="https://www.costco.com/CatalogSearch?dept=All&keyword=ring">
 		Yes <i class="fas fa-arrow-alt-circle-right ml-2"></i>
@@ -15,7 +18,7 @@ linkTitle = "docs hugo"
 	<p class="lead mt-5">Porridge temperature assessment - in the cloud!</p>
 	{{< blocks/link-down color="info" >}}
 </div>
-{{< /blocks/cover >}}
+{{% /blocks/cover %}}
 
 
 {{% blocks/lead color="primary" %}}
