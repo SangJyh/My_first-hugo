@@ -1,5 +1,7 @@
 # Docsy Example
 
+https://codebuild.us-east-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoieW5lUC9UTHFmRzUvZTJzS1B3UTFWdjZ5UTdOd2dBYWF0K1EvSS9pOG1rMDROMjdRenlyYUJuc3U5UkZNaWFDamRFeEUwVmI2V1VYS0ppazBLTDhFQjZZPSIsIml2UGFyYW1ldGVyU3BlYyI6IkU3Rzd5aEZiM3o1aFVYekEiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
+
 [Result websit](http://hugo-sang-docsy1.s3-website.us-east-2.amazonaws.com/)
 
 
